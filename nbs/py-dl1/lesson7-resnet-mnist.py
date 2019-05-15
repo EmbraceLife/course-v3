@@ -1,6 +1,3 @@
-%reload_ext autoreload
-%autoreload 2
-%matplotlib inline
 from fastai.vision import *
 path = untar_data(URLs.MNIST)
 path.ls()
